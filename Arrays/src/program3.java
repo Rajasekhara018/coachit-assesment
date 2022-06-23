@@ -19,7 +19,7 @@ public class program3
 		}
 		System.out.print("="+sum);
 		System.out.println();
-		System.out.print("average of array elements="+sum+"/"+ c +"="+sum/c);
+		System.out.print("average of array elements="+sum+"/"+ c +"="+(float)sum/c);
 
 	}
 
