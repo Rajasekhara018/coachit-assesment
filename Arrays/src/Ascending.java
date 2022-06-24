@@ -37,6 +37,7 @@ public class Ascending
 						a[i]=a[i+1];
 						a[j]=temp;
 					}
+					
 				}
 					for(int k=0; k<a.length;k++)
 					{
