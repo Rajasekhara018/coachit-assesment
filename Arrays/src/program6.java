@@ -5,27 +5,27 @@ public class program6
 	public static void main(String[] args) 
 	{
 		int array[] = {11, 12, 13, 14, 15};
-		int c=0;
+		int count=0;
 		System.out.print("Count of the even number =");
 		for(int i=0; i<array.length; i++)
 		{
 			if(array[i]%2==0)
 			{
-				c++;
+				count++;
 			}
 		}
 		System.out.print(" "+c);
 		System.out.println();
-		 c=0;
+		 count=0;
 		System.out.print("Count of the odd number =");
 		for(int i=0; i<array.length; i++)
 		{
 			if(array[i]%2!=0)
 			{
-				c++;
+				count++;
 			}
 		}
-		System.out.print(" "+c);
+		System.out.print(" "+count);
 
 	}
 

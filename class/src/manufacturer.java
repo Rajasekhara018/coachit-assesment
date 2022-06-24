@@ -1,23 +1,28 @@
 
 public class manufacturer 
 {
-
+static java.util.Scanner sc = new java.util.Scanner(System.in);
 	public static void main(String[] args) 
 	{
 		Bike honda = new Bike();
 		
-		honda.modelname="Honda shine 125cc";
-		honda.manufacturer="Honda";
-		honda.fueltype="petrol";
-		honda.GearBox="5 Gears";
-		honda.cost=95000;
+		honda.modelname=sc.next();
+		honda.manufacturer=sc.next();
+		honda.fueltype=sc.next();
+		honda.GearBox=sc.next();
+		honda.cost=sc.nextInt();
+		honda.company_of_origin =sc.next();
 		
 		System.out.print('\n'+"model name:"+honda.modelname);
 		System.out.print('\n'+"manufacturer:"+honda.manufacturer);
 		System.out.print('\n' +"fuel type:"+honda.fueltype);
-		honda.Smoothride();
+		System.out.print('\n' +"Gear Box:"+honda.GearBox);
+		System.out.print('\n' +"cost:"+honda.cost);
+		System.out.print('\n' +"company of origin:"+honda.company_of_origin);
+		
+		/*honda.Smoothride();
 		honda.maxweight();
-		honda.protection();
+		honda.protection();*/
 		
 		/*Bike hero = new Bike("Hero CD Deluxe","hero","petrol","4 gear box","75kmph",75000);
 		

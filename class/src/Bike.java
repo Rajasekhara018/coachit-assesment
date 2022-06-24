@@ -8,6 +8,7 @@ public class Bike
 	String mileage;
 	String fueltype;
 	int cost;
+	String company_of_origin;
 	
 	/*public Bike(String modelname, String manufacturer,  String fueltype, String GearBox, String mileage, int cost)
 	{
