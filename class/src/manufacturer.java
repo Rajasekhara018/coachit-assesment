@@ -12,10 +12,12 @@ public class manufacturer
 		honda.GearBox="5 Gears";
 		honda.cost=95000;
 		
-		System.out.println("model name:"+honda.modelname);
-		System.out.println("manufacturer:"+honda.manufacturer);
-		System.out.println("fuel type:"+honda.fueltype);
-		
+		System.out.print('\n'+"model name:"+honda.modelname);
+		System.out.print('\n'+"manufacturer:"+honda.manufacturer);
+		System.out.print('\n' +"fuel type:"+honda.fueltype);
+		honda.Smoothride();
+		honda.maxweight();
+		honda.protection();
 		
 		/*Bike hero = new Bike("Hero CD Deluxe","hero","petrol","4 gear box","75kmph",75000);
 		
@@ -25,8 +27,8 @@ public class manufacturer
 		System.out.println("cost:"+hero.cost);
 		System.out.println("mileage:"+hero.mileage);
 		System.out.println("Gearbox:"+hero.GearBox);
-		*/
-				
+		
+				*/
 	}
 
 }

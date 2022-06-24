@@ -1,6 +1,7 @@
 
 public class Bike
 {
+	public static final char[] Smoothride = null;
 	String modelname;
 	String manufacturer;
 	String GearBox;
