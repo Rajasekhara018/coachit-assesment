@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 public class program4 {
 
@@ -8,7 +9,7 @@ public class program4 {
 		int array3[]= new int[array1.length];
 		int count=0;
 		System.out.print("The resultant array will be= {");
-		for(int i=0; i<array1.length; i++)
+		for(int i=array1.length-1; i>=0; i--)
 		{
 		array3 [i]= array1[i]+ array2[i];
 		count++;
