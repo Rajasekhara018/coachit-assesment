@@ -11,7 +11,7 @@ public class program4 {
 		for(int i=0; i<array1.length; i++)
 		{
 		array3 [i]= array1[i]+ array2[i];
-		c++;
+		count++;
 		if(count==1)
 		System.out.print(array3[i]);
 		else

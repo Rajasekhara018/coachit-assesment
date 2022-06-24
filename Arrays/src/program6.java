@@ -14,7 +14,7 @@ public class program6
 				count++;
 			}
 		}
-		System.out.print(" "+c);
+		System.out.print(" "+count);
 		System.out.println();
 		 count=0;
 		System.out.print("Count of the odd number =");
