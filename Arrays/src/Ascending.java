@@ -34,6 +34,7 @@ public class Ascending
 					if(a[i]>a[j])
 					{
 						int temp=a[i];
+						
 						a[i]=a[i+1];
 						a[j]=temp;
 					}
